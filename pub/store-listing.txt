@@ -3,10 +3,9 @@ Title: Edmonton ETS LRT - MonTransit
 Short description:
 Edmonton ETS Light Rail Transit for MonTransit BETA.
 Schedule. News.
-//  Real-Time.
 ----------
 What's new in this version?:
-Schedule from May 30, 2015 to June 27, 2015.
+Schedule from June 2, 2015 to June 27, 2015.
 Tweets from @takeETSalert.
 
 BETA: Thanks for your patience while the last features are being added and the last bugs are being fixed.
@@ -15,8 +14,6 @@ Full description:
 This app adds Edmonton ETS Light Rail Transit information to MonTransit BETA.
 
 This app provides the schedule as well as news from @takeETSalert on Twitter.
-//  and YouTube
-// (offline and real-time)
 
 BETA: Thanks for your patience while the last features are being added and the last bugs are being fixed.
 
@@ -38,8 +35,6 @@ This app is not related with ETS (Edmonton Transit System) and the City of Edmon
 
 Permissions:
 - Other: required to read news from Twitter
-//  and YouTube
-// to read real-time schedule from transitlive.com and
 ----------
 Application type: Applications
 ----------
