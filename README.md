@@ -1,4 +1,4 @@
-# Edmonton ETS LRT (Light Rail Transit) for [MonTransit BETA](https://github.com/mtransitapps/mtransit-for-android)
+# Edmonton ETS LRT (Light Rail Transit) for [MonTransit](https://github.com/mtransitapps/mtransit-for-android)
 
 <img width="25%" height="25%" src="https://raw.githubusercontent.com/mtransitapps/ca-edmonton-ets-train-android/master/pub/hi-res-app-icon.png"/>
 
