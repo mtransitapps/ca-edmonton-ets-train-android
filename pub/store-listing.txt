@@ -5,7 +5,7 @@ Edmonton ETS Light Rail Transit for MonTransit.
 Schedule. News.
 ----------
 What's new in this version?:
-Schedule from March 1, 2017 to April 29, 2017.
+Schedule from March 9, 2017 to April 29, 2017.
 Tweets from @takeETSalert.
 ----------
 Full description:
