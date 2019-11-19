@@ -1,14 +1,3 @@
-Title: Edmonton ETS LRT - MonTransit
-----------
-Short description:
-Edmonton ETS Light Rail Transit for MonTransit.
-Schedule. News.
-----------
-What's new in this version?:
-Schedule from October 30, 2019 to November 30, 2019.
-Tweets from @takeETSalert.
-----------
-Full description:
 This app adds Edmonton ETS Light Rail Transit information to MonTransit.
 
 This app provides the schedule as well as news from @takeETSalert on Twitter.
@@ -17,7 +6,7 @@ ETS Light Rail Transit serve Edmonton in Alberta, Canada.
 
 Once this application is installed, the MonTransit app will display Light Rail Transit information (schedule...).
 
-This application only has a temporary icon and no screen: download the MonTransit app (free) in the "More ..." section bellow or by following this Google Play link http://goo.gl/pCk5mV
+This application only has a temporary icon: download the MonTransit app (free) in the "More ..." section bellow or by following this Google Play link http://goo.gl/pCk5mV
 
 You can install this application on the SD card but it is not recommended.
 
@@ -31,17 +20,3 @@ This app is not related with ETS (Edmonton Transit System) and the City of Edmon
 
 Permissions:
 - Other: required to read news from Twitter
-----------
-Application type: Applications
-----------
-Category: Transportation
-----------
-Content rating: Low Maturity
-----------
-Website: https://github.com/mtransitapps/ca-edmonton-ets-train-android
-----------
-Email: mtransit.apps+GooglePlay@gmail.com
-----------
-Phone: 
-----------
-Privacy Policy:
