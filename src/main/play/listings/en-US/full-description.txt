@@ -1,6 +1,6 @@
 This app adds Edmonton ETS Light Rail Transit information to MonTransit.
 
-This app provides the schedule as well as news from @takeETSalert on Twitter.
+This app provides the schedule (offline and real-time) as well as news from @takeETSalert on Twitter.
 
 ETS Light Rail Transit serve Edmonton in Alberta, Canada.
 
@@ -19,4 +19,4 @@ https://github.com/mtransitapps/ca-edmonton-ets-train-android
 This app is not related with ETS (Edmonton Transit System) and the City of Edmonton.
 
 Permissions:
-- Other: required to read news from Twitter
+- Other: required to read real-time estimated next departures from etslive.edmonton.ca and to read news from Twitter
