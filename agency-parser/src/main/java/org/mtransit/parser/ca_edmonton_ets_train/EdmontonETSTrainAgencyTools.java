@@ -20,6 +20,7 @@ import org.mtransit.parser.gtfs.data.GRoute;
 import org.mtransit.parser.gtfs.data.GStop;
 import org.mtransit.parser.mt.data.MAgency;
 
+import java.util.Locale;
 import java.util.regex.Pattern;
 
 // https://data.edmonton.ca/
@@ -45,6 +46,19 @@ public class EdmontonETSTrainAgencyTools extends DefaultAgencyTools {
 		return MAgency.ROUTE_TYPE_LIGHT_RAIL;
 	}
 
+	@Override
+	public boolean excludeRoute(@NotNull GRoute gRoute) {
+		//noinspection DiscouragedApi
+		final String routeIdLC = gRoute.getRouteId().toLowerCase(Locale.ENGLISH);
+		switch (routeIdLC) {
+		case "021r":
+		case "022r":
+		case "023r":
+			return KEEP; // sometimes categorized as bus
+		}
+		return super.excludeRoute(gRoute);
+	}
+
 	private static final String AGENCY_ID = "1"; // Edmonton Transit Service ONLY
 
 	@Nullable
@@ -56,7 +70,7 @@ public class EdmontonETSTrainAgencyTools extends DefaultAgencyTools {
 	@NotNull
 	@Override
 	public String getRouteShortName(@NotNull GRoute gRoute) {
-		//noinspection deprecation
+		//noinspection DiscouragedApi
 		return gRoute.getRouteId(); // route ID string as route short name used by real-time API  // used by GTFS-RT
 	}
 
