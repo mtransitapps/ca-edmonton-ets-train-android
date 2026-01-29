@@ -35,15 +35,15 @@ public class EdmontonETSTrainAgencyTools extends DefaultAgencyTools {
 		return "ETS";
 	}
 
-	@Override
-	public boolean defaultExcludeEnabled() {
-		return true;
-	}
-
 	@NotNull
 	@Override
 	public Integer getAgencyRouteType() {
 		return MAgency.ROUTE_TYPE_LIGHT_RAIL;
+	}
+
+	@Override
+	public @Nullable String getServiceIdCleanupRegex() {
+		return "^(DX|SA|SU)-|-\\d{7}$";
 	}
 
 	@Override
