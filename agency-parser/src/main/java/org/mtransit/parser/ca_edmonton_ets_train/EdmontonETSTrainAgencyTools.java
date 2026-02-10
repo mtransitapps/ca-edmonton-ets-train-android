@@ -95,7 +95,7 @@ public class EdmontonETSTrainAgencyTools extends DefaultAgencyTools {
 	@Override
 	public String cleanRouteLongName(@NotNull String routeLongName) {
 		routeLongName = CLEAN_STARTS_LRT.matcher(routeLongName).replaceAll(EMPTY);
-		return CleanUtils.cleanLabel(routeLongName);
+		return CleanUtils.cleanLabel(getFirstLanguageNN(), routeLongName);
 	}
 
 	@Override
@@ -149,7 +149,7 @@ public class EdmontonETSTrainAgencyTools extends DefaultAgencyTools {
 		tripHeadsign = STARTS_WITH_LRT_.clean(tripHeadsign);
 		tripHeadsign = CleanUtils.cleanBounds(tripHeadsign);
 		tripHeadsign = CleanUtils.cleanStreetTypes(tripHeadsign);
-		return CleanUtils.cleanLabel(tripHeadsign);
+		return CleanUtils.cleanLabel(getFirstLanguageNN(), tripHeadsign);
 	}
 
 	private static final Cleaner ENDS_WITH_STATION_STOP = new Cleaner(
@@ -169,7 +169,7 @@ public class EdmontonETSTrainAgencyTools extends DefaultAgencyTools {
 		gStopName = EDMONTON_.clean(gStopName);
 		gStopName = CleanUtils.cleanStreetTypes(gStopName);
 		gStopName = CleanUtils.cleanNumbers(gStopName);
-		return CleanUtils.cleanLabel(gStopName);
+		return CleanUtils.cleanLabel(getFirstLanguageNN(), gStopName);
 	}
 
 	@NotNull
