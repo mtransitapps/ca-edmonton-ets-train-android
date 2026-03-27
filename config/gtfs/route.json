@@ -1,0 +1,73 @@
+{
+  "keep_routes": [
+    {
+      "route_id": "021R"
+    },
+    {
+      "route_id": "022R"
+    },
+    {
+      "route_id": "023R"
+    }
+  ],
+  "default_route_id_enabled": true,
+  "use_route_id_for_route_short_name": true,
+  "route_long_name_cleaners": [
+    {
+      "regex": "(^lrt )",
+      "ignore_case": true
+    }
+  ],
+  "route_colors": [
+    {
+      "route_short_name": "Capital",
+      "color": "4895D0",
+      "route_short_name_comment": "BLUE (from PDF map)"
+    },
+    {
+      "route_short_name": "Metro",
+      "color": "DB1E32",
+      "route_short_name_comment": "RED (from PDF map)"
+    },
+    {
+      "route_short_name": "Valley",
+      "color": "2B6A3B",
+      "route_short_name_comment": "GREEN (from PDF map)"
+    },
+    {
+      "route_short_name": "501",
+      "color": "4895D0",
+      "route_short_name_comment": "21R - BLUE (from PDF map)"
+    },
+    {
+      "route_short_name": "502",
+      "color": "DB1E32",
+      "route_short_name_comment": "22R - RED (from PDF map)"
+    },
+    {
+      "route_short_name": "503",
+      "color": "2B6A3B",
+      "route_short_name_comment": "23R - GREEN (from PDF map)"
+    }
+  ],
+  "direction_finder_enabled": true,
+  "trip_headsign_remove_via": true,
+  "trip_headsign_cleaners": [
+    {
+      "regex": "(.+\\s+lrt\\s*-\\s*)",
+      "ignore_case": true
+    }
+  ],
+  "stop_name_cleaners": [
+    {
+      "regex": "(\\s*(station|stop)\\s*$)",
+      "ignore_case": true
+    },
+    {
+      "regex": "Edmonton",
+      "ignore_case": true,
+      "is_word": true,
+      "replacement": "Edm"
+    }
+  ]
+}

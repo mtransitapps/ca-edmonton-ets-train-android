@@ -1,0 +1,10 @@
+{
+  "agency_id": "1",
+  "agency_id_comment": "Edmonton Transit Service ONLY",
+  "target_route_type_id": 0,
+  "default_color": "005087",
+  "default_color_comment": "BLUE",
+  "default_color_enabled": true,
+  "default_strings_cleaner_enabled": true,
+  "service_id_cleanup_regex": "^(DX|SA|SU)-|-\\d{7}$"
+}
